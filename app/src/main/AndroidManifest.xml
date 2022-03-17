@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shopapp.autotrailer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.shopapp.autotrailer.activities.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.shopapp.autotrailer.activities.ActivitySplash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shopapp.autotrailer.activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shopapp.autotrailer.activities.ActivityCart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shopapp.autotrailer.activities.ActivityProduct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shopapp.autotrailer.activities.ActivityProductDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shopapp.autotrailer.activities.ActivityCheckout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shopapp.autotrailer.activities.ActivityHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shopapp.autotrailer.activities.ActivityHelp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shopapp.autotrailer.activities.ActivityImageDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shopapp.autotrailer.activities.ActivityNotificationDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shopapp.autotrailer.activities.ActivitySettings"
+            android:screenOrientation="portrait"
+            android:theme="@style/Pref" />
+
+        <!-- fcm -->
+        <service android:name="com.shopapp.autotrailer.notification.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.shopapp.autotrailer.notification.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.shopapp.autotrailer.notification.NotificationExtenderExample"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

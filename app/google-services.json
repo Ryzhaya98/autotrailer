@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "906312979654",
+    "project_id": "auto-t-c87fb",
+    "storage_bucket": "auto-t-c87fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906312979654:android:39ba09a67b403f1f5a33c7",
+        "android_client_info": {
+          "package_name": "com.shopapp.autotrailer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906312979654-v9904rnp5849tbn8vqgui2d4ojlvvv47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbdvPB2EZUJTh9l3pgrHIPsWMhu_rcBUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906312979654-v9904rnp5849tbn8vqgui2d4ojlvvv47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

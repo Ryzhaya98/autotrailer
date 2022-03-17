@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--application name-->
+    <string name="app_name">aвтотрейлер</string>
+
+    <!--bottom navigation-->
+    <string name="title_nav_recent">Главная</string>
+    <string name="title_nav_category">Категории</string>
+    <string name="title_nav_help">Помощь</string>
+    <string name="title_nav_profile">Профиль</string>
+
+    <!--privacy policy-->
+    <string name="privacy_policy_url">https://www.freeprivacypolicy.com/</string>
+
+    <!--share text-->
+    <string name="share_app">Привет. Я хочу поделиться с тобой этим прекрасным магазином.</string>
+    <string name="share_product_section_one">Товар</string>
+    <string name="share_product_section_two">цена</string>
+    <string name="share_product_section_three">Скачай это приложение!</string>
+
+    <!--network-->
+    <string name="no_internet">Пожалуйста включите интернет</string>
+
+    <!--title bar-->
+    <string name="title_cart">Корзина</string>
+    <string name="title_checkout">Оформить заказ</string>
+
+    <!--action-->
+    <string name="action_cart">Моя корзина</string>
+    <string name="action_clear">Очистить всё</string>
+
+    <!--menu, cart and order-->
+    <string name="search_query_text">Поиск&#8230;</string>
+    <string name="confirm">Подтверждение</string>
+    <string name="number_order">Количество: </string>
+    <string name="clear_all_order">Вы хотите удалить весь заказ?</string>
+    <string name="clear_one_order">Вы хотите удалить заказ?</string>
+    <string name="db_exist_alert">Вы хотите удалить свой предыдущий заказ?</string>
+    <string name="msg_empty_cart">Ваша корзина пуста!</string>
+    <string name="msg_no_history">Ваша история заказов пуста!</string>
+    <string name="empty_cart">Ой, ваша корзина пуста</string>
+    <string name="btn_continue_shopping">Продолжить покупки</string>
+    <string name="btn_add_to_cart">ДОБАВИТЬ В КОРЗИНУ</string>
+    <string name="btn_out_of_stock">НЕТ В НАЛИЧИИ</string>
+    <string name="msg_stock_not_enough">Нет на складе</string>
+    <string name="msg_stock_below_0">количество товара не может быть 0</string>
+    <string name="msg_success_add_cart">Успешно добавлен в корзину</string>
+    <string name="btn_checkout">Оформить заказ</string>
+
+    <!--checkout menu-->
+    <string name="checkout_your_name">Ваше Имя</string>
+    <string name="checkout_date_nbooking">Дата бронирования</string>
+    <string name="checkout_email">Ваш Email</string>
+    <string name="checkout_phone_number">Номер Телефона</string>
+    <string name="checkout_order_list">Детали Заказа</string>
+    <string name="checkout_add_comment">Комментарий</string>
+    <string name="no_order_menu">Нет заказа</string>
+    <string name="txt_order">Заказ:</string>
+    <string name="txt_tax">Налог:</string>
+    <string name="txt_total">Всего:</string>
+    <string name="txt_shipping">Доставка</string>
+    <string name="checkout_fill_form">пожалуйста, заполните сначала форму!</string>
+    <string name="checkout_dialog_title">Оформление заказа</string>
+    <string name="checkout_dialog_msg">Вы уверены, что хотите оформить заказ?</string>
+    <string name="checkout_submit_title">Пожалуйста подождите</string>
+    <string name="checkout_submit_msg">Отправить заказ&#8230;</string>
+    <string name="checkout_success_title">Поздравляем</string>
+    <string name="checkout_success_msg">Спасибо за заказ!С Вами свяжется оператор для подтверждения заказа. </string>
+    <string name="checkout_option_ok">OK</string>
+    <string name="checkout_address">Адрес</string>
+    <string name="checkout_shipping">Доставка</string>
+    <string name="title_history">История заказов</string>
+    <string name="title_profile">Профиль пользователя</string>
+    <string name="btn_process_checkout">ОФОРМЛЕНИЕ</string>
+
+    <!--profile preferences-->
+    <string name="pref_group_profile">ПРОФИЛЬ</string>
+    <string name="pref_title_name">Имя</string>
+    <string name="pref_title_email">Email</string>
+    <string name="pref_title_phone">Номер Телефона</string>
+    <string name="pref_title_address">Адрес</string>
+    <string name="default_your_name">Ваше имя</string>
+    <string name="default_your_email">вашemail@gmail.com</string>
+    <string name="default_your_phone">+784768467846</string>
+    <string name="default_your_address">Ваш Адрес</string>
+    <string name="pref_msg_invalid_name">Неправильное Имя</string>
+    <string name="pref_msg_invalid_email">Неправильный Email</string>
+    <string name="pref_msg_invalid_phone">Неправильный Телефон</string>
+    <string name="pref_msg_invalid_address">Неправильный Адрес</string>
+
+    <!--permission-->
+    <string name="permission_msg">Требуется разрешение</string>
+    <string name="permission_storage">Это приложение требует доступа к хранилищу, чтобы загрузить изображение</string>
+    <string name="download_success">Изображение было загружено и сохранено в галерее.</string>
+    <string name="download_msg">Скачивается&#8230;</string>
+    <string name="loading_msg">Пожалуйста подождите&#8230;</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_option_yes">Да</string>
+    <string name="dialog_option_no">Нет</string>
+    <string name="dialog_option_cancel">Отмена</string>
+    <string name="dialog_option_add">Добавить</string>
+    <string name="dialog_settings">ПЕРЕЙТИ В НАСТРОЙКИ</string>
+    <string name="msg_exit">Нажмите еще раз, чтобы выйти</string>
+    <string name="txt_items">штук</string>
+    <string name="title_img_save">Сохранить</string>
+    <string name="title_img_close">Закрыть</string>
+    <string name="msg_copy">Код скопирован</string>
+    <string name="failed_fetch_data">Не удалось получить данные! Пожалуйста, попробуйте еще раз.</string>
+    <string name="btn_edit_profile">РЕД...</string>
+    <string name="txt_profile_history">История Заказов</string>
+    <string name="txt_profile_rate">Оценить</string>
+    <string name="txt_profile_privacy">Политика Конфиденциальности</string>
+    <string name="txt_total_order">Общий Заказ</string>
+    <string name="txt_profile_share">Поделиться</string>
+
+</resources>
